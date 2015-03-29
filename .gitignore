@@ -1,0 +1,6 @@
+compile_commands.json
+*.mk
+/Makefile
+Debug/
+Release/
+build/

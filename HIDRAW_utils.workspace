@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="HIDRAW utils" Database="">
+  <Project Name="HIDRAW_test" Path="HIDRAW_test/HIDRAW_test.project" Active="No"/>
+  <Project Name="uinput_ddrpad" Path="uinput_ddrpad/uinput_ddrpad.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="HIDRAW_test" ConfigName="Debug"/>
+      <Project Name="uinput_ddrpad" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="HIDRAW_test" ConfigName="Release"/>
+      <Project Name="uinput_ddrpad" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
