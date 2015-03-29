@@ -18,7 +18,7 @@ Additionally, it will try to display the current state of the device and update 
 
 The included descriptor parser is NOT optimized for speed, instead it tries to be as generic as possible.
 
-Synopsis: HIDRAW\_test /dev/<hidraw device>
+Synopsis: HIDRAW\_test /dev/\<hidraw device\>
 
 uinput\_ddrpad
 --------------
@@ -29,7 +29,7 @@ through the uinput kernel module (via libsuinput)
 This allows use of the PS3 DDR mat in StepMania without encountering the Axis problem
 as well as without any conversion hardware.
 
-Synopsis: uinput\_ddrpad [-v] [/dev/<hidraw device>]
+Synopsis: uinput\_ddrpad [-v] [/dev/\<hidraw device\>]
 
 LICENSE
 =======
