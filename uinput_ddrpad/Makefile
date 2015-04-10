@@ -2,7 +2,9 @@
 # Makefile for uinput_ddrpad
 # MIT License
 
-DESTDIR=/usr/local
+DESTDIR=/
+PREFIX=/usr/local
+
 CC=gcc
 CFLAGS=-Wall -std=c11
 LIBS=-lsuinput
@@ -16,5 +18,5 @@ clean:
 	$(RM) *.o uinput_ddrpad
 
 install: uinput_ddrpad
-	install -m755 uinput_ddrpad $(DESTDIR)/bin/uinput_ddrpad
+	install -D -m755 uinput_ddrpad $(DESTDIR)/$(PREFIX)/bin/uinput_ddrpad
 
