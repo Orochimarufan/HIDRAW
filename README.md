@@ -4,6 +4,12 @@ A set of utility programs for working with Linux hidraw devices
 
 CodeLite (http://codelite.org) is used as IDE and is required to build the projects.
 
+uinput\_ddrpad also comes with a Makefile for building without CodeLite:
+
+    cd uinput_ddrpad
+    make
+    make install
+
 Note that depending on the permissions on your devices (/dev/\*), you may have to run these tools as root.
 
 HIDRAW\_test
