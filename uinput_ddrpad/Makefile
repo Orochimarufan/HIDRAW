@@ -5,9 +5,11 @@
 DESTDIR=/
 PREFIX=/usr/local
 
-CC=gcc
-CFLAGS=-Wall -std=c11
-LIBS=-lsuinput
+CC = gcc
+LIBS = -lsuinput
+
+CFLAGS = -Wall
+override CFLAGS += -std=c11
 
 all: uinput_ddrpad
 
