@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10CEDDBA1C2992A3003A9CAA /* muhid.h in Headers */ = {isa = PBXBuildFile; fileRef = 10CEDDB91C2992A3003A9CAA /* muhid.h */; };
+		10CEDDBC1C2995A8003A9CAA /* muhid_iokit.c in Sources */ = {isa = PBXBuildFile; fileRef = 10CEDDBB1C2995A8003A9CAA /* muhid_iokit.c */; };
+		10CEDDBF1C2995E9003A9CAA /* muhid.c in Sources */ = {isa = PBXBuildFile; fileRef = 10CEDDBD1C2995E9003A9CAA /* muhid.c */; };
+		10CEDDC01C2995E9003A9CAA /* muhid_driver.h in Headers */ = {isa = PBXBuildFile; fileRef = 10CEDDBE1C2995E9003A9CAA /* muhid_driver.h */; };
+		10CEDDC21C29A3CC003A9CAA /* muhid_drivers.c in Sources */ = {isa = PBXBuildFile; fileRef = 10CEDDC11C29A3CC003A9CAA /* muhid_drivers.c */; };
+		10CEDDC41C29A91D003A9CAA /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CEDDC31C29A91D003A9CAA /* IOKit.framework */; };
+		10CEDDC61C29AE48003A9CAA /* IOHIDUserDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 10CEDDC51C29AE48003A9CAA /* IOHIDUserDevice.h */; };
+		10CEDDCE1C29B618003A9CAA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 10CEDDCD1C29B618003A9CAA /* main.c */; };
+		10CEDDD51C29C0B0003A9CAA /* libmuhid.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CEDDB21C29926E003A9CAA /* libmuhid.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10CEDDD31C29C08D003A9CAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10CEDDAA1C29926E003A9CAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10CEDDB11C29926E003A9CAA;
+			remoteInfo = muhid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		10CEDDC91C29B618003A9CAA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		10CEDDB21C29926E003A9CAA /* libmuhid.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libmuhid.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		10CEDDB91C2992A3003A9CAA /* muhid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muhid.h; sourceTree = "<group>"; };
+		10CEDDBB1C2995A8003A9CAA /* muhid_iokit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = muhid_iokit.c; sourceTree = "<group>"; };
+		10CEDDBD1C2995E9003A9CAA /* muhid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = muhid.c; sourceTree = "<group>"; };
+		10CEDDBE1C2995E9003A9CAA /* muhid_driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muhid_driver.h; sourceTree = "<group>"; };
+		10CEDDC11C29A3CC003A9CAA /* muhid_drivers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = muhid_drivers.c; sourceTree = "<group>"; };
+		10CEDDC31C29A91D003A9CAA /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		10CEDDC51C29AE48003A9CAA /* IOHIDUserDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOHIDUserDevice.h; sourceTree = "<group>"; };
+		10CEDDCB1C29B618003A9CAA /* muhid-test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "muhid-test"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10CEDDCD1C29B618003A9CAA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10CEDDAF1C29926E003A9CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CEDDC41C29A91D003A9CAA /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CEDDC81C29B618003A9CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CEDDD51C29C0B0003A9CAA /* libmuhid.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10CEDDA91C29926E003A9CAA = {
+			isa = PBXGroup;
+			children = (
+				10CEDDD21C29B67A003A9CAA /* libmuhid */,
+				10CEDDCC1C29B618003A9CAA /* muhid-test */,
+				10CEDDB31C29926E003A9CAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10CEDDB31C29926E003A9CAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10CEDDB21C29926E003A9CAA /* libmuhid.dylib */,
+				10CEDDCB1C29B618003A9CAA /* muhid-test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10CEDDCC1C29B618003A9CAA /* muhid-test */ = {
+			isa = PBXGroup;
+			children = (
+				10CEDDCD1C29B618003A9CAA /* main.c */,
+			);
+			path = "muhid-test";
+			sourceTree = "<group>";
+		};
+		10CEDDD21C29B67A003A9CAA /* libmuhid */ = {
+			isa = PBXGroup;
+			children = (
+				10CEDDC51C29AE48003A9CAA /* IOHIDUserDevice.h */,
+				10CEDDC31C29A91D003A9CAA /* IOKit.framework */,
+				10CEDDC11C29A3CC003A9CAA /* muhid_drivers.c */,
+				10CEDDBD1C2995E9003A9CAA /* muhid.c */,
+				10CEDDBE1C2995E9003A9CAA /* muhid_driver.h */,
+				10CEDDBB1C2995A8003A9CAA /* muhid_iokit.c */,
+				10CEDDB91C2992A3003A9CAA /* muhid.h */,
+			);
+			path = libmuhid;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10CEDDB01C29926E003A9CAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CEDDBA1C2992A3003A9CAA /* muhid.h in Headers */,
+				10CEDDC01C2995E9003A9CAA /* muhid_driver.h in Headers */,
+				10CEDDC61C29AE48003A9CAA /* IOHIDUserDevice.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10CEDDB11C29926E003A9CAA /* muhid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10CEDDB61C29926E003A9CAA /* Build configuration list for PBXNativeTarget "muhid" */;
+			buildPhases = (
+				10CEDDAE1C29926E003A9CAA /* Sources */,
+				10CEDDAF1C29926E003A9CAA /* Frameworks */,
+				10CEDDB01C29926E003A9CAA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = muhid;
+			productName = muhid;
+			productReference = 10CEDDB21C29926E003A9CAA /* libmuhid.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		10CEDDCA1C29B618003A9CAA /* muhid-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10CEDDCF1C29B618003A9CAA /* Build configuration list for PBXNativeTarget "muhid-test" */;
+			buildPhases = (
+				10CEDDC71C29B618003A9CAA /* Sources */,
+				10CEDDC81C29B618003A9CAA /* Frameworks */,
+				10CEDDC91C29B618003A9CAA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10CEDDD41C29C08D003A9CAA /* PBXTargetDependency */,
+			);
+			name = "muhid-test";
+			productName = "muhid-test";
+			productReference = 10CEDDCB1C29B618003A9CAA /* muhid-test */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10CEDDAA1C29926E003A9CAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Orochimarufan;
+				TargetAttributes = {
+					10CEDDB11C29926E003A9CAA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					10CEDDCA1C29B618003A9CAA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 10CEDDAD1C29926E003A9CAA /* Build configuration list for PBXProject "muhid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10CEDDA91C29926E003A9CAA;
+			productRefGroup = 10CEDDB31C29926E003A9CAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10CEDDB11C29926E003A9CAA /* muhid */,
+				10CEDDCA1C29B618003A9CAA /* muhid-test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10CEDDAE1C29926E003A9CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CEDDBF1C2995E9003A9CAA /* muhid.c in Sources */,
+				10CEDDBC1C2995A8003A9CAA /* muhid_iokit.c in Sources */,
+				10CEDDC21C29A3CC003A9CAA /* muhid_drivers.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10CEDDC71C29B618003A9CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CEDDCE1C29B618003A9CAA /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10CEDDD41C29C08D003A9CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10CEDDB11C29926E003A9CAA /* muhid */;
+			targetProxy = 10CEDDD31C29C08D003A9CAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10CEDDB41C29926E003A9CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		10CEDDB51C29926E003A9CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		10CEDDB71C29926E003A9CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10CEDDB81C29926E003A9CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		10CEDDD01C29B618003A9CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10CEDDD11C29B618003A9CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10CEDDAD1C29926E003A9CAA /* Build configuration list for PBXProject "muhid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CEDDB41C29926E003A9CAA /* Debug */,
+				10CEDDB51C29926E003A9CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10CEDDB61C29926E003A9CAA /* Build configuration list for PBXNativeTarget "muhid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CEDDB71C29926E003A9CAA /* Debug */,
+				10CEDDB81C29926E003A9CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10CEDDCF1C29B618003A9CAA /* Build configuration list for PBXNativeTarget "muhid-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10CEDDD01C29B618003A9CAA /* Debug */,
+				10CEDDD11C29B618003A9CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10CEDDAA1C29926E003A9CAA /* Project object */;
+}
