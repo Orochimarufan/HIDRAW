@@ -5,3 +5,5 @@ Debug/
 Release/
 build/
 xcuserdata/
+.DS_Store
+
