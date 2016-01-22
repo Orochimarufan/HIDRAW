@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:usb_ddrpad/usb_ddrpad.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:muhid/muhid.xcodeproj">
    </FileRef>
 </Workspace>

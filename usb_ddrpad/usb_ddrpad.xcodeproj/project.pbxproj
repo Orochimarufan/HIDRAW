@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1012E8B61C51D7190098AA0C /* libhidapi.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1012E8B51C51D7190098AA0C /* libhidapi.0.dylib */; };
+		10FA941A1C51B92F005A26AE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 10FA94191C51B92F005A26AE /* main.c */; };
+		10FA941C1C51BA21005A26AE /* libmuhid.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FA941B1C51BA21005A26AE /* libmuhid.dylib */; };
+		10FA94221C51BD1C005A26AE /* common.c in Sources */ = {isa = PBXBuildFile; fileRef = 10FA94211C51BD1C005A26AE /* common.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		10FA940D1C51B87E005A26AE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1012E8B51C51D7190098AA0C /* libhidapi.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libhidapi.0.dylib; path = "../../../../../usr/local/Cellar/hidapi/0.8.0-rc1/lib/libhidapi.0.dylib"; sourceTree = "<group>"; };
+		10FA94091C51B773005A26AE /* konami_ps3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = konami_ps3.h; sourceTree = "<group>"; };
+		10FA940A1C51B7AD005A26AE /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		10FA940F1C51B87E005A26AE /* muhid_ddrpad */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = muhid_ddrpad; sourceTree = BUILT_PRODUCTS_DIR; };
+		10FA94191C51B92F005A26AE /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		10FA941B1C51BA21005A26AE /* libmuhid.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmuhid.dylib; path = ../muhid/build/Debug/libmuhid.dylib; sourceTree = "<group>"; };
+		10FA941D1C51BA33005A26AE /* libhidapi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libhidapi.a; path = "../../../../../usr/local/Cellar/hidapi/0.8.0-rc1/lib/libhidapi.a"; sourceTree = "<group>"; };
+		10FA94211C51BD1C005A26AE /* common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = common.c; sourceTree = "<group>"; };
+		10FA94281C51CE32005A26AE /* descriptor.hex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = descriptor.hex; sourceTree = "<group>"; };
+		10FA942B1C51D655005A26AE /* descriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = descriptor.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10FA940C1C51B87E005A26AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1012E8B61C51D7190098AA0C /* libhidapi.0.dylib in Frameworks */,
+				10FA941C1C51BA21005A26AE /* libmuhid.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10FA93F61C51B747005A26AE = {
+			isa = PBXGroup;
+			children = (
+				1012E8B51C51D7190098AA0C /* libhidapi.0.dylib */,
+				10FA942A1C51D5D0005A26AE /* common */,
+				10FA941D1C51BA33005A26AE /* libhidapi.a */,
+				10FA941B1C51BA21005A26AE /* libmuhid.dylib */,
+				10FA94161C51B8B1005A26AE /* Devices */,
+				10FA94101C51B87E005A26AE /* Drivers */,
+				10FA94001C51B747005A26AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10FA94001C51B747005A26AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10FA940F1C51B87E005A26AE /* muhid_ddrpad */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10FA94101C51B87E005A26AE /* Drivers */ = {
+			isa = PBXGroup;
+			children = (
+				10FA94261C51CDC9005A26AE /* muhid+hidapi */,
+			);
+			path = Drivers;
+			sourceTree = "<group>";
+		};
+		10FA94161C51B8B1005A26AE /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				10FA94091C51B773005A26AE /* konami_ps3.h */,
+			);
+			path = Devices;
+			sourceTree = "<group>";
+		};
+		10FA94261C51CDC9005A26AE /* muhid+hidapi */ = {
+			isa = PBXGroup;
+			children = (
+				10FA942B1C51D655005A26AE /* descriptor.h */,
+				10FA94281C51CE32005A26AE /* descriptor.hex */,
+				10FA94191C51B92F005A26AE /* main.c */,
+			);
+			name = "muhid+hidapi";
+			path = muhid_hidapi;
+			sourceTree = "<group>";
+		};
+		10FA942A1C51D5D0005A26AE /* common */ = {
+			isa = PBXGroup;
+			children = (
+				10FA94211C51BD1C005A26AE /* common.c */,
+				10FA940A1C51B7AD005A26AE /* common.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10FA940E1C51B87E005A26AE /* muhid_ddrpad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10FA94131C51B87E005A26AE /* Build configuration list for PBXNativeTarget "muhid_ddrpad" */;
+			buildPhases = (
+				10FA940B1C51B87E005A26AE /* Sources */,
+				10FA940C1C51B87E005A26AE /* Frameworks */,
+				10FA940D1C51B87E005A26AE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = muhid_ddrpad;
+			productName = muhid_ddrpad;
+			productReference = 10FA940F1C51B87E005A26AE /* muhid_ddrpad */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10FA93F71C51B747005A26AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Taeyeon Mori";
+				TargetAttributes = {
+					10FA940E1C51B87E005A26AE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 10FA93FA1C51B747005A26AE /* Build configuration list for PBXProject "usb_ddrpad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10FA93F61C51B747005A26AE;
+			productRefGroup = 10FA94001C51B747005A26AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10FA940E1C51B87E005A26AE /* muhid_ddrpad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10FA940B1C51B87E005A26AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FA94221C51BD1C005A26AE /* common.c in Sources */,
+				10FA941A1C51B92F005A26AE /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		10FA94041C51B747005A26AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		10FA94051C51B747005A26AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		10FA94141C51B87E005A26AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					../muhid/libmuhid,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/usr/local/Cellar/hidapi/0.8.0-rc1/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10FA94151C51B87E005A26AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					../muhid/libmuhid,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/usr/local/Cellar/hidapi/0.8.0-rc1/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10FA93FA1C51B747005A26AE /* Build configuration list for PBXProject "usb_ddrpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FA94041C51B747005A26AE /* Debug */,
+				10FA94051C51B747005A26AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10FA94131C51B87E005A26AE /* Build configuration list for PBXNativeTarget "muhid_ddrpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FA94141C51B87E005A26AE /* Debug */,
+				10FA94151C51B87E005A26AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10FA93F71C51B747005A26AE /* Project object */;
+}
